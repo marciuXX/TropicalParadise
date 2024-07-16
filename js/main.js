@@ -1,4 +1,4 @@
-const nav = document.querySelector('.nav');
+const nav = document.querySelector('.nav__box');
 const navBtn = document.querySelector('.burger-btn');
 const allNavItems = document.querySelectorAll('.nav__item');
 

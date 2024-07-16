@@ -73,17 +73,20 @@ body {
 }
 
 .nav {
-	position: fixed;
-	top: 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
-	width: 100%;
-	transition: transform 0.5s cubic-bezier(0.65, 0.05, 0.36, 1);
-	transform: translateX(100%);
-	background-image: colors.$blue-gradient-solid;
-	z-index: 100;
+
+	&__box{
+		position: fixed;
+		top: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+		width: 100%;
+		transition: transform 0.5s cubic-bezier(0.65, 0.05, 0.36, 1);
+		transform: translateX(100%);
+		background-image: colors.$blue-gradient-solid;
+		z-index: 100;
+	}
 
 	&--active {
 		transform: translateX(0);

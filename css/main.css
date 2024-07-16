@@ -108,7 +108,7 @@ body {
   transition-delay: 0.1s;
 }
 
-.nav {
+.nav__box {
   position: fixed;
   top: 0;
   display: flex;
