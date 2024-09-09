@@ -131,6 +131,12 @@ body {
 	animation: navItemsAnimation 1s both;
 }
 
+.black-bars-color,
+.black-bars-color::after,
+.black-bars-color::before {
+	background-color: colors.$dark;
+}
+
 // Header
 .header {
 	position: relative;
@@ -664,23 +670,23 @@ body {
 			margin: 0 2em;
 			width: 25%;
 
-			&:first-child{
+			&:first-child {
 				width: 50%;
 			}
 		}
 
-		&__box-title{
+		&__box-title {
 			font-size: 2.4rem;
 		}
 
-		&__box-list{
+		&__box-list {
 			list-style: none;
 		}
 
-		&__box-list-item{
+		&__box-list-item {
 			margin-bottom: 1em;
 
-			a{
+			a {
 				color: colors.$light-white;
 				text-decoration: none;
 			}
